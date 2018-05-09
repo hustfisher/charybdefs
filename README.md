@@ -1,6 +1,7 @@
 
 CharybdeFS
 ==========
+方便模拟文件系统的各种问题，比如说写磁盘失败、驱动程序分配内存失败、文件已经存在、磁盘配额超标等。
 
 A fuse based fault injection filesystem
 with a Thrift RPC interface for instrumentation.
